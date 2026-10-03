@@ -6,7 +6,25 @@ Dica: ord()  transforma letra em número e  chr()  faz o caminho de volta; use  
 no alfabeto.
 '''
 
-palavra = input("Digite a palavra: ")
-numero = input("Digite o deslocamento: ")
+alfabeto = 'abcdefghijklmnopqrstuvwxyz'
+lista_numeros = []
 
-for letra in palavra:
+palavra = input("Digite a palavra: ")
+deslocamento = int(input("Digite o deslocamento: "))
+
+
+
+# Descobrir os números
+
+
+#for letra in palavra:
+ #   print(ord(letra) + deslocamento)
+  #  lista_numeros.append(ord(letra) + deslocamento)
+
+# Volta
+#for n in lista_numeros:
+ #   print(chr(n))
+
+
+
+
